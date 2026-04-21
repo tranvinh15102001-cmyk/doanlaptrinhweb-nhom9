@@ -1,0 +1,985 @@
+.content-slider-tn {
+    background: var(--text-white);
+    position: relative;
+    z-index: 1;
+    margin-top: -46px;
+    margin-left: auto;
+    max-width: 252px;
+    padding: 19px 12px 12px;
+    box-shadow: 0px 15px 30px -4px rgba(16, 24, 40, 0.03);
+}
+
+.content-header-tn {
+    display: block;
+}
+
+.thumbnail-tn img {
+    width: 100%;
+}
+
+
+
+.wrap-header-content-tn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.item-infor {
+    display: flex;
+    gap: 7px;
+    align-items: center;
+}
+
+.link-infor {
+
+    font-size: 12px;
+    line-height: 1.3;
+    color: #EE1338;
+
+
+}
+
+.faq-two-column .icon-accordion span:last-child {
+    opacity: 1;
+}
+
+.faq-two-column .icon-accordion.active span:last-child {
+    opacity: 0;
+}
+
+.item-infor .icon-slider-tn {
+    width: 20px;
+    height: 20px;
+}
+
+.wrap-infor {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    margin-top: 14px;
+}
+
+.title-slider-tn {
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #262626;
+
+}
+
+.position-tn {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.3;
+    color: #454545;
+
+}
+
+.section-slider-tn {
+    padding: 48px 0 48px;
+}
+
+.list-slider-tn {}
+
+.list-slider-tn .swiper-navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-top: 46px;
+}
+
+.list-slider-tn .swiper-navigation .swiper-button-prev,
+.list-slider-tn .swiper-navigation .swiper-button-next {
+    position: relative;
+    left: unset !important;
+    right: unset !important;
+    top: unset !important;
+    bottom: unset !important;
+    width: unset;
+    height: unset;
+    margin: 0;
+}
+
+.list-slider-tn .swiper-button-prev:after,
+.list-slider-tn .swiper-button-next:after {
+    display: none;
+}
+
+.list-slider-tn .swiper-scrollbar {
+    width: 100%;
+    position: relative;
+    max-width: 196px;
+    left: unset;
+    right: unset;
+    bottom: unset;
+    top: unset;
+    height: 2px;
+}
+
+.list-slider-tn .swiper-scrollbar .swiper-scrollbar-drag {
+    background: var(--text-red);
+}
+
+.list-slider-tn .swiper-pagination-count {
+    text-align: center;
+    margin-top: 23px;
+    font-size: 16px;
+}
+
+.wrap-body-faq-tn {
+    display: flex;
+    gap: 54px;
+}
+
+.wrap-body-faq-tn .accordion-faq {
+    width: calc(50% - 28px);
+}
+
+.body-connect-image {
+    display: flex;
+    align-items: center;
+}
+
+.wrap-image-tn {
+    max-width: 592px;
+}
+
+.wrap-image-tn img {
+    width: 100%;
+}
+
+.body-connect-image .section-connect__wrapper {
+    max-width: 624px;
+    padding: 64px;
+}
+
+.body-connect-image .input-connect {
+    width: calc(50% - 8px);
+}
+
+.body-connect-image .input-connect.input-name-connect {
+    width: 100%;
+}
+
+.body-connect-image .form-connect button[type="submit"] {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    padding: 14px 24px;
+}
+
+.body-connect-image .form-connect input {
+    width: 100%;
+    max-width: 100% !important;
+}
+
+.product-tn .heading-sph h2 {
+    text-transform: capitalize;
+}
+
+.product-tn.c-sec-intro--our-mission.section-intro {
+    padding-bottom: 66px;
+    padding-top: 63px;
+}
+
+.section-slider-tn .heading-slider-tn h2 {
+    padding-bottom: 26px;
+    margin-bottom: 40px;
+    font-size: 48px;
+
+}
+
+section.section-connect-image {
+    padding: 45px 0 44px;
+}
+
+.faq-two-column .heading-sph h2 {
+    margin-bottom: 25px;
+}
+
+.text-action-connect-tn {
+    font-size: 18px;
+    line-height: 1.4;
+    color: #FFFFFF;
+    width: 100%;
+    text-align: start;
+    margin-top: 32px;
+    padding-left: 5px;
+}
+
+.text-action-connect-tn a {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+.section-connect-image .title-connect h2 {
+    text-align: start;
+    margin-bottom: 48px;
+}
+
+.section-text-to-image-tn .item-strip {
+    padding: 32px 24px 31px;
+    min-height: inherit;
+
+}
+
+.section-text-to-image-tn {
+    padding: 96px 0 46px;
+}
+
+.section-text-to-image-tn .desc-item-strip {
+    margin-bottom: 0;
+}
+
+.section-text-to-image-tn .main-media-strip img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.section-text-to-image-tn .main-media-strip {
+    margin-bottom: 0;
+    /* aspect-ratio: 488 / 536; */
+    height: 100%;
+    width: 100%;
+}
+
+.product-tn.c-sec-values {
+    padding-bottom: 48px;
+}
+
+section.section-feature-col3 {
+    background-color: #fff;
+    padding: 48px 0;
+}
+
+.section-feature-col3 .icon-item-feature {
+
+    background-color: #f6f6f6;
+
+}
+
+.tn-col3 {
+    width: calc((100% - 64px) / 3) !important;
+}
+
+.section-feature-col3 .list-features {
+    justify-content: center;
+}
+
+.product-tn.banner-full-screen .qpf-banner_content .qpf-sub_title {
+    text-transform: uppercase;
+    margin-bottom: 18px !important;
+}
+
+.product-tn .qpf-title {
+    margin-bottom: 29px;
+}
+
+.section-text-to-image-tn .title-trip h2 {
+    text-transform: capitalize;
+    margin-bottom: 0px;
+}
+
+.section-text-to-image-tn .description-strip {
+    padding: 40px;
+    background: #F6F6F6;
+    width: 100%;
+    margin-bottom: 33px;
+    max-width: 100%;
+    font-weight: 500;
+}
+
+.section-text-to-image-tn .list-box-strips {
+    padding-right: 32px;
+}
+
+.section-text-to-image-tn .title-item-strip {
+    text-transform: capitalize;
+    max-width: 222px;
+}
+
+.section-feature-col3 .title-feature h2 {
+    font-size: 48px;
+    line-height: 1.2;
+
+
+}
+
+.section-feature-col3 .desc-feature p {
+    margin-bottom: 25px;
+}
+
+.faq-two-column .item-accordion {
+    padding: 30px 4px 30px 0;
+}
+
+.show-mobile-tn {
+    display: none;
+}
+
+section.faq-two-column {
+    padding: 96px 0;
+}
+
+.subtitle-feature-col3 {
+    color: var(--text-eyebrown);
+    letter-spacing: 2px;
+    line-height: 1.2;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+/*----------------------- product-farm-finance-------------------------- */
+
+.product-farm-finance.banner-full-screen,
+.product-home-contents-insurance.banner-full-screen {
+    padding-bottom: 48px;
+
+
+}
+
+.new-section-focus.section-focus .content-focus {
+
+    gap: 34px;
+}
+
+.new-section-focus .title-focus.heading-sph h2{
+     text-transform: capitalize;
+}
+.new-section-focus.section-focus .description-focus {
+    padding: 32px 32px 64px;
+    width: calc(28.2% - 17px);
+    background: #F6F6F6;
+
+}
+
+.new-section-focus .list-focus {
+    width: calc(71.8% - 17px);
+    gap: 30px 32px;
+}
+
+.new-section-focus.section-focus .image-focus {
+    aspect-ratio: inherit;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.product-farm-finance.c-sec-values {
+    padding-top: 48px;
+    padding-bottom: 92px;
+}
+
+.product-farm-finance.section-feature-col3 {
+    padding: 96px 0 25px;
+
+}
+
+.product-farm-finance.section-intro .btn-sph {
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 23px;
+    padding: 14px 32px;
+}
+
+.product-farm-finance.banner-full-screen .qpf-banner_content .qpf-sub_title {
+    margin-bottom: 18px !important;
+}
+
+.product-farm-finance.section-intro {
+    padding-bottom: 71px;
+}
+
+/*----------------------- product-home-contents-insurance-------------------------- */
+.product-home-contents-insurance .description-focus p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.banner-noline.product-home-contents-insurance .qpf-sub_title {
+    text-transform: uppercase;
+    margin: 2px 0 15px !important;
+}
+
+.product-home-contents-insurance.section-focus .description-focus {
+    width: calc(24.2% - 15px);
+}
+
+.product-home-contents-insurance.section-focus .content-focus {
+    gap: 30px;
+}
+
+.product-home-contents-insurance .list-focus {
+    width: calc(75.8% - 15px);
+}
+
+.product-home-contents-insurance .content-item-focus {
+    width: calc(100% - 152px);
+}
+
+.product-home-contents-insurance.section-focus .image-focus {
+    width: 152px;
+}
+
+.sub-title-values-tn {
+    margin-top: 25px;
+    font-size: 18px;
+}
+
+.section-slider-tn .desc-feature {
+    margin: -16px auto 40px auto;
+    max-width: 846px;
+}
+.list-slider-tn  .content-slider-tn {
+    margin-top: -45px;
+}
+.product-home-contents-insurance.section-feature {
+    padding: 47px 0 46px;
+    background-color: #fff;
+}
+
+.product-home-contents-insurance.product-tn .c-sec-intro--our-mission.section-intro {
+    padding-top: 94px;
+    padding-bottom: 73px;
+}
+
+.product-home-contents-insurance.section-intro .btn-sph {
+    padding: 15px 32px;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.product-home-contents-insurance .content-intro {
+    padding-bottom: 7px;
+}
+
+.product-home-contents-insurance .icon-item-feature {
+    background: #F6F6F6;
+
+
+}
+
+.product-home-contents-insurance.c-sec-values {
+    padding-bottom: 48px;
+}
+
+@media(min-width:1300px) {
+
+    .product-small-business-loans.banner-full-screen .qpf-banner_thumbnail,
+    .product-small-business-loans.banner-full-screen .qpf-banner_thumbnail img {
+        min-height: 584px;
+    }
+
+    .product-small-business-loans .image-intro img {
+        aspect-ratio: 592 / 575;
+    }
+
+    .wrap-image-tn img {
+        aspect-ratio: 592 / 600;
+    }
+
+    .product-farm-finance.banner-full-screen .qpf-banner_thumbnail img {
+        aspect-ratio: 704 / 501;
+    }
+    .product-home-contents-insurance .content-item-focus {
+           padding: 19px 21px 16px;
+    }
+}
+
+@media(max-width: 1200px) {
+
+    .body-connect-image .section-connect__wrapper,
+    .wrap-image-tn {
+        width: 50%;
+    }
+
+    .body-connect-image .section-connect__wrapper {
+        padding: 30px;
+
+    }
+}
+
+@media(max-width: 1024px) {
+    .section-connect-image .title-connect h2 {
+        font-size: 40px
+    }
+
+    .new-section-focus .list-focus,
+    .new-section-focus.section-focus .description-focus {
+        width: 100%;
+    }
+}
+
+@media(max-width: 991px) {
+
+    .body-connect-image,
+    .wrap-body-faq-tn {
+
+        flex-wrap: wrap;
+        gap: 0;
+    }
+
+    .tn-col3 {
+        width: calc((100% - 32px) / 2) !important;
+    }
+
+    .body-connect-image .section-connect__wrapper,
+    .wrap-image-tn,
+    .wrap-body-faq-tn .accordion-faq {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .wrap-image-tn {
+        order: 1;
+    }
+
+    .body-connect-image .section-connect__wrapper {
+        order: 2;
+    }
+
+    .wrap-image-tn img {
+        height: 100%;
+    }
+
+    section.section-connect-image {
+        background-color: #fff;
+    }
+
+    .body-connect-image {
+        background-color: var(--text-header);
+    }
+}
+
+@media(max-width: 767px) {
+    .product-tn.banner-full-screen .qpf-banner_thumbnail {
+        aspect-ratio: 375 / 248.29;
+    }
+
+    .product-tn.banner-full-screen .qpf-banner_thumbnail img {
+        height: 100%;
+        min-height: inherit;
+        width: 100%;
+    }
+
+    .product-tn.banner-full-screen .inner-banner .qpf-banner_content {
+        padding: 21px 20px 25px;
+    }
+
+    .product-tn.banner-full-screen .qpf-banner_content .qpf-sub_title {
+        margin-bottom: 12px !important;
+    }
+
+    .product-tn.banner-full-screen .qpf-banner_content .qpf-title {
+        margin: 0 0 21px;
+    }
+
+    .section-text-to-image-tn {
+        padding-top: 20px;
+        padding-bottom: 34px;
+    }
+
+    .section-text-to-image-tn .description-strip {
+        background: #fff;
+        padding: 0;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 1.4;
+        color: #454545;
+        margin-bottom: 26px;
+    }
+
+    .section-text-to-image-tn .item-strip {
+        padding: 23px 24px 23px 21px;
+    }
+
+    .section-text-to-image-tn .list-box-strips {
+        gap: 17px;
+        padding-right: 19px;
+    }
+
+    .section-text-to-image-tn .media-strip .main-media-strip {
+        display: block;
+        aspect-ratio: 335 / 411;
+    }
+
+    .product-tn.c-sec-values {
+        padding-top: 47px;
+    }
+
+    .section-feature-col3 .title-feature h2 {
+        font-size: 24px;
+    }
+
+    .product-tn.c-sec-values .c-sec-values__item-desc {
+        margin-top: 12px;
+    }
+
+    section.section-feature-col3 {
+        padding: 15px 0 48px;
+    }
+
+    .tn-col3 {
+        width: 100% !important
+    }
+
+    .section-feature-col3 .desc-feature p {
+        margin-bottom: 21px;
+    }
+
+    .section-feature-col3 .title-item-feature p>br {
+        display: none !important;
+    }
+
+    .product-small-business-loans.c-sec-intro--our-mission .title-intro h2 {
+        font-size: 24px;
+    }
+
+    .product-tn.c-sec-intro--our-mission.section-intro {
+        padding-top: 11px;
+        padding-bottom: 30px;
+    }
+
+    .show-mobile-tn {
+        display: inline-block;
+    }
+
+    .c-sec-intro--our-mission .show-mobile-tn {
+        margin-top: 33px;
+
+    }
+
+    .product-tn.c-sec-intro--our-mission .section-intro__wrapper {
+        gap: 39px;
+    }
+
+    .section-slider-tn .heading-slider-tn h2 {
+        font-size: 32px;
+        line-height: 1.2;
+        text-align: start;
+        padding-bottom: 17px;
+        margin-bottom: 24px;
+
+    }
+
+    .product-tn.section-slider-tn {
+        padding-top: 14px;
+
+
+    }
+
+    section.faq-two-column {
+        padding: 48px 0;
+    }
+
+    .section-slider-tn .heading-sph.heading-sph-center h2::after {
+        left: 0;
+        transform: inherit;
+    }
+
+    .faq-two-column .item-accordion {
+        padding: 24px 4px 18px 0;
+    }
+
+    section.section-connect-image {
+        padding-top: 2px;
+        padding-bottom: 0;
+    }
+
+    .section-connect-image .body-connect-image {
+        margin: 0 -20px;
+    }
+
+    .wrap-image-tn {
+        aspect-ratio: 375 / 244.48;
+
+    }
+
+    .wrap-image-tn img {
+        object-fit: cover;
+    }
+
+    .section-connect-image .title-connect h2 {
+        font-size: 32px;
+        margin-bottom: 15px;
+
+    }
+
+    .body-connect-image .section-connect__wrapper {
+        padding: 60px 24px 63px;
+    }
+
+    .section-connect-image .show-mobile-tn {
+        font-size: 18px;
+        line-height: 1.4;
+        color: #fff;
+        margin-bottom: 34px !important;
+    }
+
+    .body-connect-image .input-connect {
+        width: 100%;
+    }
+
+    .text-action-connect-tn {
+        margin-top: 24px;
+    }
+
+    .list-slider-tn {
+        margin-right: -20px;
+    }
+
+    .list-slider-tn .swiper-navigation {
+        margin-right: 20px;
+        margin-top: 28px;
+        padding: 0 9px;
+    }
+
+    .list-slider-tn .swiper-pagination-count {
+        padding-right: 20px;
+        margin-top: 19px;
+    }
+
+    .list-slider-tn .swiper-button-next svg,
+    .list-slider-tn .swiper-button-prev svg {
+        width: 18px;
+        height: 18px;
+    }
+
+    .faq-two-column .heading-sph h2 {
+        margin-bottom: 17px;
+    }
+
+
+
+    /*----------------------- product-farm-finance-------------------------- */
+    .product-tn .link-action-banner a,
+    .product-home-contents-insurance .link-action-banner a {
+        padding: 16px 24px;
+        font-size: 16px;
+    }
+
+    .product-tn .item-focus {
+        width: 100%;
+    }
+
+    .product-farm-finance.banner-full-screen,
+    .product-home-contents-insurance.banner-full-screen {
+        padding-bottom: 0;
+    }
+
+
+    .product-farm-finance.c-sec-values {
+        padding-top: 33px;
+        padding-bottom: 32px;
+    }
+
+    .new-section-focus.section-focus .description-focus {
+        padding: 0;
+        background-color: transparent;
+    }
+
+    .new-section-focus.section-focus .content-focus {
+        gap: 21px;
+
+
+    }
+
+    .product-farm-finance .c-sec-values__item-title {
+        max-width: 100%;
+
+    }
+
+    .new-section-focus .title-item-focus p {
+        font-size: 16px;
+    }
+
+    .new-section-focus .content-item-focus {
+        padding: 18px 12px 16px;
+    }
+
+    .subtitle-feature-col3 {
+        font-size: 14px;
+        text-align: start;
+    }
+
+    .new-section-focus.section-focus .image-focus {
+        height: inherit;
+        aspect-ratio: 126 / 121;
+    }
+
+    .new-section-focus .list-focus {
+        gap: 15px 32px;
+    }
+
+    .new-section-focus .title-item-focus {
+        margin-bottom: 5px;
+    }
+
+    .product-farm-finance.section-feature-col3 {
+        padding: 32px 0 25px;
+    }
+
+    .product-farm-finance.c-sec-intro--family-run.section-intro .title-intro h2 {
+        font-size: 24px;
+        line-height: 1.2;
+    }
+
+    .product-farm-finance.section-intro {
+        padding-top: 40px;
+        padding-bottom: 32px;
+    }
+
+    .product-farm-finance .desc-intro p {
+
+        font-size: 18px;
+        line-height: 1.4;
+
+
+    }
+
+    .product-farm-finance.section-intro .btn-sph {
+        padding: 13px 32px;
+        font-size: 16px;
+        margin-top: 31px;
+
+    }
+
+    .product-farm-finance.banner-full-screen .qpf-banner_thumbnail img {
+        min-height: inherit;
+        height: 100%;
+
+        width: 100%;
+    }
+
+    .product-farm-finance.banner-full-screen .qpf-banner_thumbnail,
+    .product-home-contents-insurance.banner-full-screen .qpf-banner_thumbnail {
+        aspect-ratio: 375 / 248.29;
+    }
+
+    .product-home-contents-insurance .qpf-banner_thumbnail img {
+        height: 100%;
+        width: 100%;
+        min-height: inherit;
+    }
+
+    .product-farm-finance.banner-full-screen .inner-banner .qpf-banner_content {
+        padding: 21px 20px 12px;
+    }
+
+    .product-home-contents-insurance.banner-full-screen .inner-banner .qpf-banner_content {
+        padding: 18px 20px 37px;
+    }
+
+    .new-section-focus.product-home-contents-insurance .description-focus p {
+        font-size: 16px;
+        margin-bottom: 21px;
+    }
+
+    .new-section-focus.product-home-contents-insurance .title-item-focus p {
+        font-size: 18px;
+    }
+
+    .product-home-contents-insurance.section-focus .image-focus {
+        width: 126px;
+    }
+
+    .product-home-contents-insurance.section-focus .content-item-focus {
+        width: calc(100% - 126px);
+    }
+
+    .product-farm-finance.banner-full-screen .qpf-banner_content .qpf-sub_title {
+        margin-bottom: 12px !important;
+    }
+
+    .product-home-contents-insurance.c-sec-values {
+        padding-top: 32px;
+        padding-bottom: 33px;
+    }
+
+    .btn-faq-tn {
+        width: 100%;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 16px;
+        text-align: center;
+        background-color: #fff;
+        color: #EE1237 !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        margin-top: 9px;
+    }
+
+    .product-home-contents-insurance .c-sec-values {
+        padding-top: 30px;
+    }
+
+    .sub-title-values-tn {
+        font-size: 16px;
+    }
+
+    .product-home-contents-insurance .section-slider-tn {
+        padding-top: 33px;
+    }
+
+    .product-home-contents-insurance.section-feature .title-feature h2 {
+        font-size: 32px;
+    }
+
+    .product-home-contents-insurance.c-sec-intro--our-mission.section-intro {
+        padding-top: 8px;
+        padding-bottom: 33px;
+    }
+
+    .product-home-contents-insurance.c-sec-intro--our-mission .desc-intro p {
+        font-size: 18px;
+        margin-bottom: 24px;
+    }
+
+    .product-home-contents-insurance .title-item-feature {
+        margin-bottom: 12px;
+    }
+
+    .product-home-contents-insurance.section-feature {
+        padding: 35px 0 46px;
+    }
+
+    .section-slider-tn .desc-feature {
+        margin: -5px auto 40px auto;
+    }
+
+    .product-home-contents-insurance.c-sec-intro--our-mission.section-intro .btn-sph {
+        margin-top: 13px;
+        font-size: 16px;
+        padding: 13px 32px;
+    }
+
+    .product-home-contents-insurance.c-sec-intro--our-mission .section-intro__wrapper {
+        gap: 30px;
+    }
+
+ 
+
+    .section-feature-col3 .title-item-feature {
+        margin-bottom: 14px;
+    }
+
+    .product-farm-finance .link-action-banner a {
+        font-size: 16px;
+        padding: 15.5px 24px;
+    }
+
+    .banner-noline.product-home-contents-insurance .qpf-sub_title {
+        margin-bottom: 12px!important;
+    }
+}
